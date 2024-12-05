@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    
+    width: 100vw;
+    height: 100vh;
+}
+
+.head{
+    color:rgb(53, 52, 52);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    background-color: azure;
+    margin-bottom: auto;
+    width: 100%;
+}
+
+
+
+.head .logo  img{
+    
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 70px;
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar ul{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+}
+
+li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+a{
+    text-decoration: none;
+    color:rgb(77, 75, 75);
+}
+
+
+ head .form{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;
+    margin-left: 2rem;
+}
+
+.form input{
+    border: none;
+    padding: 8px;
+    border-radius:7px ;
+    color: white;
+    font-weight: 700;  
+} 
+
+.form #Register{
+    background-color: rgb(32, 30, 30);
+
+}
+.form #Login{
+    background-color: rgba(0, 128, 0, 0.815);
+}
+
+
+.hero-p{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+.Hero-sec{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 1px;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.Hero-sec  .sec-1{
+    max-width: fit-content;
+}
+
+
+.Hero-sec  .sec-1 h6{
+margin-bottom: 25px;
+font-family: italic;
+font-size: 12px;
+
+} 
+.Hero-sec  .sec-1 p{
+    font-size:40px;
+}
+
+
+
+
+footer{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+}
+.fa-phone, .fa-tiktok{
+    font-size: 20px;
+    font-weight: 800;
+    color: green;
+    
+}
+
+
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:flex-start;
+}
